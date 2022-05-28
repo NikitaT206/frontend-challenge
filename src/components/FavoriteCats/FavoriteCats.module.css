@@ -1,0 +1,7 @@
+.section {
+  composes: section from '../Cats/Cats.module.css'
+}
+
+.list {
+  composes: list from '../Cats/Cats.module.css'
+}

@@ -1,0 +1,30 @@
+.section {
+  padding: 48px 0 102px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  max-width: 91.35%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-template-rows: 225px;
+  grid-auto-rows: 225px;
+  gap: 47.5px;
+}
+
+@media screen and (max-width: 550px) {
+  .section {
+    padding: 30px 0 60px;
+  }
+
+  .list {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    grid-auto-rows: 300px;
+    gap: 20px;
+  }
+}

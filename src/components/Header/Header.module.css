@@ -1,0 +1,27 @@
+.header {
+  background-color: #2196F3;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  max-width: 91.35%;
+  margin: 0 auto;
+}
+
+.link {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  padding: 23px;
+}
+
+.linkActive {
+  composes: link;
+  color: white;
+  background-color: #1E88E5;
+}
